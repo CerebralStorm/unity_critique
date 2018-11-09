@@ -1,0 +1,2 @@
+class ShowPiecesController < ApplicationController
+end

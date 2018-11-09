@@ -11,11 +11,16 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 2.5'
 gem 'webpacker', '~> 3.5'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'devise_token_auth'
 
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails', '~> 3.8.1'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rubocop'
+  gem 'dotenv-rails'
 end
 
 group :development do

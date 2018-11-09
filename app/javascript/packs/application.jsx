@@ -6,6 +6,7 @@ import store from '../store'
 
 import App from '../components/App'
 import Index from '../components/Index'
+import SignUp from '../components/SignUp'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <App>
           <Switch>
             <Route exact path="/" component={Index}/>
+            <Route exact path="/sign_up" component={SignUp}/>
           </Switch>
         </App>
       </BrowserRouter>
