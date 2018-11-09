@@ -1,0 +1,2 @@
+class ShowPieceCategoriesController < ApplicationController
+end
